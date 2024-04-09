@@ -46,6 +46,7 @@ jobs:
           git add .
           git config --global user.name "Manu65"
           git commit -m "commit 1"
+          git push origin new_branch
           git status
           python --version
           pip list
