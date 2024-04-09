@@ -38,7 +38,7 @@ jobs:
           cp fde ../new_folder
           ls ../new_folder
           cd ../new_folder
-          gh repo clone Manu65/inject_dependant
+          git clone https://github.com/Manu65/inject_dependant
           echo complete!!
           
           
