@@ -34,3 +34,8 @@ jobs:
           echo test, and deploy your project.
           git status
           ls
+          mkdir ../new_folder
+          cp fde ../new_folder
+          ls ../new_folder
+          echo complete!!
+          
