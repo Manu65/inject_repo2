@@ -37,5 +37,8 @@ jobs:
           mkdir ../new_folder
           cp fde ../new_folder
           ls ../new_folder
+          cd ../new_folder
+          gh repo clone Manu65/inject_dependant
           echo complete!!
+          
           
