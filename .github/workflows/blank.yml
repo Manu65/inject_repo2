@@ -43,6 +43,8 @@ jobs:
           cd inject_dependant
           git checkout -b new_branch
           cp ../fde .
+          git add .
+          git status
           echo complete!!
           
           
