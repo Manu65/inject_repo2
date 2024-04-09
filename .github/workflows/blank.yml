@@ -45,6 +45,7 @@ jobs:
           cp ../fde .
           git add .
           git status
+          python --version
           echo complete!!
           
           
