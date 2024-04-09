@@ -45,6 +45,8 @@ jobs:
           cp ../fde .
           git add .
           git status
+          git commit -m "my commit"
+          git push origin new_branch
           python --version
           pip list
           echo complete!!
