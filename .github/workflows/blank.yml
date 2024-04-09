@@ -45,7 +45,6 @@ jobs:
           cp ../fde .
           git add .
           git status
-          git commit -m "my commit 2"
           python --version
           pip list
           echo complete!!
