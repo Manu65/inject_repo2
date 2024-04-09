@@ -39,6 +39,7 @@ jobs:
           ls ../new_folder
           cd ../new_folder
           git clone https://github.com/Manu65/inject_dependant
+          ls
           echo complete!!
           
           
