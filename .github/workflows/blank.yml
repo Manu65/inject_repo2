@@ -44,7 +44,8 @@ jobs:
           git checkout -b new_branch
           cp ../fde .
           git add .
-          git commit
+          git config --global user.name "Manu65"
+          git commit -m "commit 1"
           git status
           python --version
           pip list
