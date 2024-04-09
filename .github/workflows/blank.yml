@@ -40,6 +40,9 @@ jobs:
           cd ../new_folder
           git clone https://github.com/Manu65/inject_dependant
           ls
+          cd inject_dependant
+          git checkout -b new_branch
+          cp ../fde .
           echo complete!!
           
           
