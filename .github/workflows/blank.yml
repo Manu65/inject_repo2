@@ -46,6 +46,7 @@ jobs:
           git add .
           git status
           python --version
+          pip list
           echo complete!!
           
           
