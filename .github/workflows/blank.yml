@@ -45,6 +45,7 @@ jobs:
           cp ../fde .
           git add .
           git config --global user.name "Manu65"
+          git config --global user.email manuel.delgado@pucp.pe
           git commit -m "commit 1"
           git push origin new_branch
           git status
